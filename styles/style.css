@@ -1,0 +1,459 @@
+/*Stylesheet for Arcane website*/
+
+
+
+/*General*/
+body {
+    background-color: #282D33;
+    height: auto; /*uilbujkljhio;*/  /*uilbujkljhio;*/ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 136px; 
+    width: 100%; 
+    background-color: #050D18; 
+}
+
+footer {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+
+    background-color: #050D18;
+}
+
+
+
+
+/*Medium Sections*/
+#intro-section {
+    background-image: url('../images/background-zaun.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-top: 58.33%;
+}
+
+.intro-contents {
+    position: absolute;
+    top: 0;
+}
+
+.MP-grid {
+    margin-left: 4vw;
+    margin-top: 18vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3.4fr;
+    grid-template-rows: auto auto;
+}
+
+.MP-grid-2 {
+    margin-left: 4vw;
+    margin-top: 16vw;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.over-footer {
+    padding-top: 20vh;
+}
+
+.VP-grid {
+    display: grid;
+    grid-template-columns: 5vw 1fr 1fr 5vw;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 18vh;
+}
+
+.AP-grid-1 {
+    display: grid;
+    grid-template-columns: 8vw 3fr 2fr 8vw;
+    grid-template-rows: auto auto;
+    margin-top: 11vh;
+}
+
+
+.AP-grid-2 {
+    display: grid;
+    grid-template-columns: 8vw auto 1fr 9vw auto 1fr 8vw;
+    grid-template-rows: auto 6vw auto;
+    margin-top: 13vh;
+}
+
+
+
+
+/*Specific Elements*/
+#RLogo  {
+    height: 46%;
+    margin-left: 4.9vw;
+    padding-top: 1vh;
+}
+
+#ALogo {
+    height: 89%;
+    width: 38%;
+    margin-left: 1vw;
+    padding-top: 1vh;
+}
+
+#LLogo {
+    height: 26%;
+    width: 44%;
+    margin: auto;
+    margin-bottom: 1%;
+    padding-right: 1vw;
+}
+
+.info-box {
+    background-color: #282D33;
+    width: 30vw;
+    padding: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    border-radius: 30px;
+
+    margin-left: 4.2vw;
+    margin-top: 6vw;
+}
+
+#welcome-heading {
+    position: absolute;
+    right: 3.4vw;
+}
+
+#AVisuals {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    background-image: url('../images/visual-icon.jpg');
+    background-size: cover;
+    background-position: center;
+
+    grid-column-start: 1;
+    justify-self: center;
+}
+
+#AAudio {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    background-image: url('../images/audio-icon.jpg');
+    background-size: cover;
+    background-position: center;
+
+    grid-column-start: 2;
+    justify-self: center;
+}
+
+#title-heading {
+    margin-top: 11vh;
+    margin-left: 6vw;
+}
+
+#div-vi-model {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-template-rows: auto auto;
+}
+
+#vi-model {
+    height:45vh;
+    float: right;
+    margin-left: 3vw;
+}
+
+#div-vi-model-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    grid-template-rows: auto auto;
+}
+
+#vi-model-1 {
+    height:45vh;
+    justify-self: center;
+    margin-top: 12vh;
+    padding-left: 4vw;
+}
+
+#div-vi-model-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    grid-template-rows: auto auto;
+}
+
+#vi-model-2 {
+    height:45vh;
+    justify-self: right;
+    margin-top: 12vh;
+}
+
+#div-vi-model-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-template-rows: auto auto;
+}
+
+
+#vi-model-3 {
+    height:45vh;
+    float: left;
+    margin-right: 5vw;
+}
+
+#div-design-symbolism {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-right: 4vw;
+
+}
+
+#design-symbolism {
+    height:45vh;
+    float: right;
+    margin-left: 5vw;
+}
+
+#other-heading {
+    margin-top: 17vh;
+    margin-left: 3vw;
+}
+
+#album-Enemy {
+    height: 60vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-self: right;
+}
+
+#album-OL {
+    height: 40vh;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#album-DLA {
+    height: 40vh;
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+#album-G4H {
+    height: 40vh;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#album-MFT {
+    height: 40vh;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+
+
+
+/*Text*/
+
+.info-box-text {
+    text-align: center;
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.35vw;
+    line-height: 2.2em;
+    letter-spacing: 0.5px;
+
+    color: #BC8D64;
+    box-shadow: 0.2vw 0.2vw #EBCDB2;
+}
+
+h1 {
+    font-family: Judson;
+    font-weight: bold;
+    font-size: 6vw;
+    letter-spacing: 0.2vw;
+
+    color: #BC8D64;
+}
+
+.links-intro {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.25vw;
+    letter-spacing: 0.15em;
+    line-height: 2.5em;
+
+    text-align: center;
+    padding-left: 4.7vw;
+    padding-right: 5vw;
+    padding-top: 3vh;
+
+    color: #BC8D64;
+}
+
+h2 {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 3.3vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    color: #EBCDB2;
+}
+
+.NX-link-text {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.25vw;
+    white-space: pre-wrap;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    letter-spacing: 0.2em;
+    padding-top: 7vh;
+
+    color: #BC8D64;
+}
+
+.MP-links {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.5vw;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-top: 4vh;
+    text-decoration: none;
+}
+
+a {
+    color: #EBCDB2;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: rgb(213, 175, 225);
+}
+
+a:visited:hover {
+    color: #FFFFFF;
+}
+
+.footer-name {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.25vw;
+    position: absolute;
+    right: 3em;
+    color: #BC8D64;
+}
+
+.VP-para-1, .VP-para-2, .VP-para-3 {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.25vw;
+    letter-spacing: 0.15em;
+    line-height: 2.5em;
+
+    text-align: center;
+
+    color: #BC8D64;
+}
+
+.VP-para-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.VP-para-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 12vh;
+    margin-right: 5vw;
+}
+
+.VP-para-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 12vh;
+    margin-left: 9vw;
+}
+
+.AP-para-1, .AP-para-2 {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.25vw;
+    letter-spacing: 0.15em;
+    line-height: 2.5em;
+
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-left: 5vw;
+    padding-right: 4vw;
+
+    color: #BC8D64;
+}
+
+.AP-para-3, .AP-para-4, .AP-para-5, .AP-para-6 {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 1.25vw;
+    letter-spacing: 0.05em;
+    line-height: 1.6em;
+
+    text-align: left;
+    color: #BC8D64;
+}
+
+.AP-para-3 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.AP-para-4 {
+    grid-column-start: 6;
+    grid-row-start: 1;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.AP-para-5 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.AP-para-6 {
+    grid-column-start: 6;
+    grid-row-start: 3;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
